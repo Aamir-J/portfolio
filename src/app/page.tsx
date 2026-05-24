@@ -4,6 +4,7 @@ import { Hero } from "@/components/sections/hero"
 import { About } from "@/components/sections/about"
 import { Projects } from "@/components/sections/projects"
 import { Experience } from "@/components/sections/experience"
+import { Skills } from "@/components/sections/skills"
 
 export default function HomePage() {
   return (
@@ -15,9 +16,7 @@ export default function HomePage() {
           <About />
           <Projects />
           <Experience />
-          <section id="skills" className="py-16">
-            <p className="font-mono text-sm text-muted-foreground">[ skills section placeholder ]</p>
-          </section>
+          <Skills />
           <section id="contact" className="py-16">
             <p className="font-mono text-sm text-muted-foreground">[ contact section placeholder ]</p>
           </section>
