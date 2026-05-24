@@ -66,7 +66,7 @@ export function Hero() {
               <Circle className="h-2 w-2 fill-accent-brand text-accent-brand" />
               Open to full-time roles
             </span>
-            <span>MS Information Systems · Northeastern 2026</span>
+            <span>MS Information Systems · Northeastern University 2026</span>
           </div>
         </FadeIn>
       </div>
