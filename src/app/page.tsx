@@ -3,6 +3,7 @@ import { SiteFooter } from "@/components/site-footer"
 import { Hero } from "@/components/sections/hero"
 import { About } from "@/components/sections/about"
 import { Projects } from "@/components/sections/projects"
+import { Experience } from "@/components/sections/experience"
 
 export default function HomePage() {
   return (
@@ -13,9 +14,7 @@ export default function HomePage() {
           <Hero />
           <About />
           <Projects />
-          <section id="experience" className="py-16">
-            <p className="font-mono text-sm text-muted-foreground">[ experience section placeholder ]</p>
-          </section>
+          <Experience />
           <section id="skills" className="py-16">
             <p className="font-mono text-sm text-muted-foreground">[ skills section placeholder ]</p>
           </section>
