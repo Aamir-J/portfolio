@@ -44,19 +44,17 @@ export default async function Image() {
         <div style={{ display: "flex", flexDirection: "column", gap: "32px" }}>
           <div
             style={{
-              fontSize: 88,
+              fontSize: 76,
               fontWeight: 700,
-              lineHeight: 1.05,
+              lineHeight: 1.08,
               letterSpacing: "-0.03em",
               display: "flex",
               flexDirection: "column",
             }}
           >
             <span>Building data systems</span>
-            <span>
-              where engineering meets{" "}
-              <span style={{ color: "#a5b4fc" }}>applied AI.</span>
-            </span>
+            <span>where engineering meets</span>
+            <span style={{ color: "#a5b4fc" }}>applied AI.</span>
           </div>
 
           <div
