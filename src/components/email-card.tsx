@@ -25,7 +25,7 @@ export function EmailCard() {
   return (
     <a
       href={`mailto:${EMAIL}`}
-      className="group relative flex items-center justify-between gap-4 overflow-hidden rounded-xl border border-border/60 bg-card/40 p-5 transition-all hover:border-accent-brand/40 hover:bg-card/60 hover:shadow-[0_0_40px_-12px_hsl(var(--accent-brand)/0.3)] sm:p-6"
+      className="group relative flex items-center justify-between gap-4 overflow-hidden rounded-xl border border-border/60 bg-white/60 p-5 shadow-sm backdrop-blur-sm transition-all hover:border-accent-brand/40 hover:shadow-[0_0_40px_-12px_hsl(var(--accent-brand)/0.3)] dark:bg-card/40 dark:shadow-none sm:p-6"
     >
       <div className="flex items-center gap-4">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-brand/10 text-accent-brand transition-colors group-hover:bg-accent-brand/20">

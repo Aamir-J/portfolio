@@ -93,7 +93,7 @@ export function Projects() {
           <span className="font-mono text-xs uppercase tracking-widest text-accent-brand">
             Projects
           </span>
-          <Separator className="flex-1" />
+          <Separator className="flex-1 bg-foreground/15" />
           <span className="font-mono text-xs text-muted-foreground">
             {projects.length} featured
           </span>
@@ -106,7 +106,7 @@ export function Projects() {
           <FadeIn key={project.number} delay={idx * 0.1}>
           <SpotlightCard
             spotlightColor="hsl(238 79% 70% / 0.10)"
-            className="group rounded-xl border border-border/60 bg-card/40 p-6 shadow-[0_0_0_1px_hsl(var(--border)/0.4)] transition-all duration-300 hover:border-accent-brand/40 hover:shadow-[0_0_40px_-12px_hsl(var(--accent-brand)/0.3)] sm:p-8"
+            className="group rounded-xl border border-foreground/20 bg-card/80 p-6 shadow-md backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-accent-brand/50 hover:shadow-[0_12px_40px_-8px_hsl(var(--accent-brand)/0.35)] dark:border-border/60 dark:bg-card/40 dark:shadow-[0_0_0_1px_hsl(var(--border)/0.4)] dark:hover:translate-y-0 sm:p-8"
           >
             <div className="relative z-10 grid gap-6 md:grid-cols-[1fr_auto]">
               {/* Left: content */}
@@ -135,7 +135,7 @@ export function Projects() {
                     <Badge
                       key={tech}
                       variant="secondary"
-                      className="font-mono text-[10px] font-normal"
+                      className="font-mono text-[10px] font-normal transition-all hover:-translate-y-0.5 hover:border-accent-brand/40 hover:text-foreground"
                     >
                       {tech}
                     </Badge>

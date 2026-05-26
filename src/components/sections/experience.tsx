@@ -53,7 +53,7 @@ export function Experience() {
           <span className="font-mono text-xs uppercase tracking-widest text-accent-brand">
             Experience
           </span>
-          <Separator className="flex-1" />
+          <Separator className="flex-1 bg-foreground/35" />
         </div>
       </FadeIn>
 
@@ -106,7 +106,7 @@ export function Experience() {
                     <Badge
                       key={tech}
                       variant="secondary"
-                      className="font-mono text-[10px] font-normal"
+                      className="font-mono text-[10px] font-normal transition-all hover:-translate-y-0.5 hover:border-accent-brand/40 hover:text-foreground"
                     >
                       {tech}
                     </Badge>

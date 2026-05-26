@@ -39,7 +39,7 @@ export function Contact() {
           <span className="font-mono text-xs uppercase tracking-widest text-accent-brand">
             Contact
           </span>
-          <Separator className="flex-1" />
+          <Separator className="flex-1 bg-foreground/35" />
         </div>
       </FadeIn>
 
@@ -47,8 +47,8 @@ export function Contact() {
         {/* Left: intro + email card + secondary links */}
         <FadeIn className="space-y-8">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-              Let&apos;s <span className="text-accent-brand">talk.</span>
+            <h2 className="text-2xl font-extrabold tracking-tight sm:text-3xl">
+              Let&apos;s <span className="text-gradient-brand">talk.</span>
             </h2>
             <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
               Open to Data Engineering, Analytics Engineering, and AI Engineering roles.

@@ -9,8 +9,8 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 const navLinks = [
   { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
+  { href: "#projects", label: "Projects" },
   { href: "#skills", label: "Skills" },
   { href: "#contact", label: "Contact" },
 ]
@@ -32,9 +32,10 @@ export function SiteHeader() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="group relative text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {link.label}
+              <span className="absolute -bottom-1 left-0 h-px w-0 bg-accent-brand transition-all duration-300 group-hover:w-full" />
             </Link>
           ))}
         </nav>

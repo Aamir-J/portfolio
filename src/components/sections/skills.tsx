@@ -70,12 +70,12 @@ export function Skills() {
           <span className="font-mono text-xs uppercase tracking-widest text-accent-brand">
             Skills
           </span>
-          <Separator className="flex-1" />
+          <Separator className="flex-1 bg-foreground/35" />
         </div>
       </FadeIn>
 
       {/* Skills table */}
-      <div className="overflow-hidden rounded-xl border border-border/60 bg-card/30">
+      <div className="overflow-hidden rounded-xl border border-border/60 bg-white/60 shadow-sm backdrop-blur-sm dark:bg-card/30 dark:shadow-none">
         {skillGroups.map((group, idx) => (
           <FadeIn key={group.category} delay={idx * 0.08}>
             <div

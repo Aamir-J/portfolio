@@ -42,7 +42,7 @@ export function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 rounded-xl border border-border/60 bg-card/30 p-6 sm:p-8"
+      className="space-y-4 rounded-xl border border-border/60 bg-white/60 p-6 shadow-sm backdrop-blur-sm dark:bg-card/30 dark:shadow-none sm:p-8"
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">

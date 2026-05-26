@@ -31,7 +31,7 @@ export function About() {
           <span className="font-mono text-xs uppercase tracking-widest text-accent-brand">
             About
           </span>
-          <Separator className="flex-1" />
+          <Separator className="flex-1 bg-foreground/35" />
         </div>
       </FadeIn>
 
@@ -40,9 +40,9 @@ export function About() {
         <FadeIn delay={0.1} className="space-y-4">
           <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Data Engineer with range across{" "}
-            <span className="text-accent-brand">the modern stack.</span>
+            <span className="text-gradient-brand">the modern stack.</span>
           </h2>
-          <div className="space-y-4 text-muted-foreground">
+          <div className="space-y-4 text-[15px] leading-relaxed text-foreground/80">
             <p>
               I started in data engineering at Tata Consultancy Services, building Talend and PySpark
               pipelines that ingested data from 25+ partner banks into the Reserve Bank of India&apos;s

@@ -1,13 +1,14 @@
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Manrope, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { TooltipProvider } from "@/components/ui/tooltip"
 import { Toaster } from "@/components/ui/sonner"
 
-const geistSans = Geist({
+const manrope = Manrope({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 })
 
 const geistMono = Geist_Mono({
@@ -29,9 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-accent-brand/30 selection:text-foreground`}
+        className={`${manrope.variable} ${geistMono.variable} antialiased selection:bg-accent-brand/30 selection:text-foreground`}
       >
-      <ThemeProvider
+        <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem
