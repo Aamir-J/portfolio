@@ -17,9 +17,24 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Aamir Jawadwala — Analytics & AI Engineer",
+  title: "Aamir Jawadwala — Data & Analytics Engineer | Applied AI",
   description:
-    "Portfolio of Aamir Jawadwala — Analytics Engineer specializing in dbt, Snowflake, and applied AI systems.",
+    "Data Engineer with three years of experience building production pipelines on PySpark, Airflow, dbt, and Snowflake. Bringing the same rigor to analytics engineering and applied AI systems.",
+  metadataBase: new URL("https://aamir-jawadwala.vercel.app"),
+  openGraph: {
+    title: "Aamir Jawadwala — Data & Analytics Engineer | Applied AI",
+    description:
+      "Data Engineer with three years of experience building production pipelines on PySpark, Airflow, dbt, and Snowflake. Bringing the same rigor to analytics engineering and applied AI systems.",
+    url: "https://aamir-jawadwala.vercel.app",
+    siteName: "Aamir Jawadwala",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aamir Jawadwala — Data & Analytics Engineer | Applied AI",
+    description:
+      "Data Engineer with three years of experience building production pipelines on PySpark, Airflow, dbt, and Snowflake.",
+  },
 }
 
 export default function RootLayout({
