@@ -20,7 +20,7 @@ const roles: Role[] = [
     period: "Jun 2025 — Dec 2025",
     location: "Lehi, UT · Remote",
     description:
-      "Responsible for the modeling layer of client-facing analytics products delivered to Lendio's external lending partners. Designed and shipped the Decisioning Outcomes Report, a dbt product that surfaced loan policy gaps and led several lenders to revise their underwriting rules. Refactored mart queries into pre-aggregated views to improve dashboard performance, and modeled lender policy history as slowly changing dimensions to support point-in-time analysis.",
+      "Owned the modeling layer of client-facing analytics products delivered to 75+ external lending partners. Modeled data end-to-end in dbt on Snowflake across staging, intermediate, and mart layers, delivered through tiered, purchase-gated analytics packages that drove measurable lender policy changes. Modeled lender policy history as slowly changing dimensions via dbt snapshots for point-in-time analysis, and refactored heavy SQL into pre-aggregated views that cut dashboard load times by 35%.",
     stack: ["dbt", "Snowflake", "SQL", "ThoughtSpot", "Jinja"],
   },
   {
@@ -29,8 +29,8 @@ const roles: Role[] = [
     period: "Mar 2024 — May 2025",
     location: "Boston, MA",
     description:
-      "Supported the planning and execution of 40+ commencement ceremonies across two graduation cycles, covering 35,000+ students. Built Python ETL pipelines that consolidated student, ceremony, and logistics data into a unified Tableau reporting layer for weekly review. Applied NLP techniques in NLTK to classify open-ended survey responses, surfacing themes in student feedback that were not visible in structured fields.",
-    stack: ["Python", "Tableau", "NLTK", "ETL", "SQL"],
+      "Built a serverless AWS pipeline powering commencement reporting for 55,000+ students across 40+ ceremonies. Automated weekly vendor API ingestion into S3 using Lambda, Step Functions, and EventBridge, transformed raw JSON into optimized Parquet with Glue, and queried it through Athena for a Tableau reporting layer on a weekly refresh. Applied NLP in NLTK to classify open-ended survey responses, surfacing themes not visible in structured fields.",
+    stack: ["AWS", "Lambda", "Glue", "Athena", "Tableau", "Python", "NLTK", "SQL"],
   },
   {
     company: "Tata Consultancy Services",
@@ -38,8 +38,8 @@ const roles: Role[] = [
     period: "Aug 2022 — Dec 2023",
     location: "Mumbai, IN",
     description:
-      "Worked on the team building the Reserve Bank of India's centralized data platform. Developed Talend pipelines that ingested data from 25+ partner banks into Hive, with downstream standardization, validation, and metadata generation. Built and optimized PySpark workflows for dimension-update jobs across MySQL and Hive, reducing nightly processing time by more than 50%. Gained foundational experience in large-scale data reliability and operational rigor.",
-    stack: ["Talend", "PySpark", "Hive", "HDFS", "MySQL", "Shell", "Python"],
+      "Worked on the team building the Reserve Bank of India's centralized regulatory data platform. Developed Talend pipelines that ingested data from 25+ partner banks into Hadoop/Hive, with downstream standardization, validation, and metadata generation. Built and optimized PySpark workflows for dimension-update jobs across MySQL and Hive, reducing processing time by more than 50%, and wrote routines to validate regulatory data between the XBRL and SDMX reporting standards.",
+    stack: ["Talend", "PySpark", "Hadoop", "Hive", "HDFS", "MySQL", "Shell", "Python"],
   },
 ]
 
